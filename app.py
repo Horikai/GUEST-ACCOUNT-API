@@ -128,7 +128,7 @@ def encrypt_api(plain_text):
 # ---------------- NAME / PASSWORD ---------------- #
 def generate_random_name(name_prefix):
     characters = string.ascii_letters + string.digits
-    return name_prefix + ''.join(random.choice(characters) for _ in range(6)).upper()
+    return name_prefix + ''.join(random.choice(characters) for _ in range(3)).upper()
 
 def generate_custom_password():
     characters = string.ascii_letters + string.digits
