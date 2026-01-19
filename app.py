@@ -629,7 +629,7 @@ def home():
             "region": "Vùng Server (mặc định: VN)"
         },
         "available_regions": list(REGION_LANG.keys()),
-        "max_count_per_request": 15,
+        "max_count_per_request": 5000,
         "status": "full_login only (register → token → major register → major login → /getlogindata)",
         "credit": {
             "author": "@LuanOri04 @ShiinaTenju @ShiinaTenju_Bot",
